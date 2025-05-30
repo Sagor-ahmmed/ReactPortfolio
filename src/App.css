@@ -1,0 +1,84 @@
+.mobile-menu{
+  
+    
+
+    top: calc(130%);
+    color: blue;
+    font-style: italic;
+   
+
+}
+.myimg{
+    width: 30%;
+  
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+
+@keyframes translate {
+    0%{
+        transform: translateX(0%);
+        opacity: 0.5;
+    }
+    100%{
+        transform: translateX(-100%);
+         opacity: 1;
+    }
+    
+}
+
+.custom-anim{
+    animation-name: translate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    animation-timing-function: ease-in-out;  
+    transition: transform 0.1s;
+
+}
+
+
+
+@keyframes opacityAnim {
+    0%{
+        opacity:0;
+    }
+    50%{
+         opacity:0.5;
+
+    }
+    100%{
+         opacity:1;
+         transform: translateY(-10px);
+       
+    }
+    
+}
+
+
+
+
+.opacity-anim{
+
+    animation-name: opacityAnim;
+    animation-duration:3s;
+    animation-delay: 1s;
+}
+
+/* anim for main> he */
+
+
+@keyframes upanim {
+    100%{
+        transform: translateY(-10px);
+    }
+}
+.up-anim{
+   animation-name: upanim;
+    animation-duration:3s;
+    
+    animation-iteration-count: infinite;
+ animation-timing-function: ease-in-out;
+animation-direction:alternate-reverse;
+}
