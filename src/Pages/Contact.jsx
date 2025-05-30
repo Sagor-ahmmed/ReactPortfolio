@@ -24,7 +24,7 @@ const Contact = () => {
 
         <div className='flex gap-10 mt-3'>
           <button className='text-3xl text-white'><a href="mailto:helpahmed35sagor@gmail.com" target='blank'><MdOutlineAttachEmail /></a></button>
-          <button className='text-3xl text-green-500'><a href="http://wa.me/01733832435" target='blank'><FaWhatsapp /></a></button>
+          <button className='text-3xl text-green-500'><a href="http://wa.me/++8801733832435" target='blank'><FaWhatsapp /></a></button>
 
 
         </div>
